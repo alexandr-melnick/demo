@@ -5,12 +5,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mendeleev Table</title>
 </head>
 
+<style>
+    .item {
+        border: 1px solid black;
+    }
+
+    .item-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .item-green {
+        background-color: green;
+    }
+
+    .item-gradient {
+        background-image: linear-gradient(30deg, green 50%, yellow 50%);
+    }
+
+    .item-purple {
+        background-color: purple;
+    }
+
+    .item-yellow {
+        background-color: yellow;
+    }
+
+    table {
+        border: 1px solid black;
+    }
+</style>
+
 <body>
-    <div>hello world</div>
-    <span>hello new world</span>ывапрачвпрвапр
+    <h1>Таблица менделеева</h1>
+    <table width="100%" height="200%">
+        <thead>
+            <tr>
+                <th class="item" width="20%" height="">Период</th>
+                <th class="item" width="10%">I</th>
+                <th class="item" width="10%">II</th>
+                <th class="item" width="10%">III</th>
+                <th class="item" width="10%">IV</th>
+                <th class="item" width="10%">V</th>
+                <th class="item" width="10%">VI</th>
+                <th class="item" width="10%">VII</th>
+                <th class="item" width="10%">VIII</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="item">1</th>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>H</span>
+                        <span>1</span>
+                    </div>
+                    <div>Водород</div>
+                </td>
+                <td class="item"></td>
+                <td class="item"></td>
+                <td class="item"></td>
+                <td class="item"></td>
+                <td class="item"></td>
+                <td class="item"></td>
+                <td class="item item-purple">
+                    <div class="item-header">
+                        <span>He</span>
+                        <span>2</span>
+                    </div>
+                    <div>Гелий</div>
+                </td>
+            </tr>
+            <tr>
+                <th class="item">2</th>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Li</span>
+                        <span>3</span>
+                    </div>
+                    <div>Литий</div>
+                </td>
+                <td class="item item-gradient">
+                    <div class="item-header">
+                        <span>Be</span>
+                        <span>3</span>
+                    </div>
+                    <div>Берилий</div>
+                </td>
+                <td class="item item-yellow">
+                    <div class="item-header">
+                        <span>B</span>
+                        <span>5</span>
+                    </div>
+                    <div>Бром</div>
+                </td>
+                <td class="item item-yellow">
+                    <div class="item-header">
+                        <span>C</span>
+                        <span>6</span>
+                    </div>
+                    <div>Углерод</div>
+                </td>
+                <td class="item item-yellow">
+                    <div class="item-header">
+                        <span>N</span>
+                        <span>7</span>
+                    </div>
+                    <div>Азот</div>
+                </td>
+                <td class="item item-yellow">
+                    <div class="item-header">
+                        <span>O</span>
+                        <span>8</span>
+                    </div>
+                    <div>Кислород</div>
+                </td>
+                <td class="item item-yellow">
+                    <div class="item-header">
+                        <span>F</span>
+                        <span>9</span>
+                    </div>
+                    <div>Фтор</div>
+                </td>
+                <td class="item item-purple">
+                    <div class="item-header">
+                        <span>Ne</span>
+                        <span>10</span>
+                    </div>
+                    <div>Неон</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
